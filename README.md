@@ -18,7 +18,8 @@ Attributes
 
   Path to the gem binary. Use this, the default cookbook recipe tells Chef to
   construct the correct alternative gem environment when installing gem
-  packages.
+  packages. Note, this is the full path to the `gem` binary, _not_ the folder
+  containing the binary.
 
 Usage
 =====
