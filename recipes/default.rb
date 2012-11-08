@@ -2,9 +2,8 @@
 # Cookbook Name:: gem_binary
 # Recipe:: default
 #
-# Copyright 2012, YOUR_COMPANY_NAME
-#
-# All rights reserved - Do Not Redistribute
+# Copyright 2012, Pioneering Software, United Kingdom
+# All rights reserved
 #
 
 # Iterate through all the gem_package resources changing the Gem binary to
