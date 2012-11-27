@@ -17,7 +17,7 @@
 # limitations under the License.
 #
 
-# Iterate through all the gem_package resources changing the Gem binary to
+# Iterate through all the gem_package resources changing the gem binary to
 # node[:gem_binary] unless already configured. Do this at the end of
 # compilation, just before convergence when the gem_package resources perform
 # their install action.
