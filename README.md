@@ -6,6 +6,13 @@ gem binary. This avoids picking up the default gem binary from the embedded
 Ruby installation, in the case of omnibus Chef stacks, or the system-wide
 packaged Ruby.
 
+The default recipe automatically configures the `node[:gem_binary]` attribute
+if and only if the node carries the `rbenv_rubies` attribute and it contains
+just a single Ruby version. In such cases, assume that the node intends to use
+the single Ruby environment as a default. This assumes that you use the
+`rbenv_ruby` cookbook to install Ruby versions using Fletcher Nichol's `rbenv`
+cookbook.
+
 Requirements
 ============
 
