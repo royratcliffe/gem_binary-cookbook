@@ -1,3 +1,4 @@
+name             "gem_binary"
 maintainer       "Pioneering Software"
 maintainer_email "roy@pioneeringsoftware.co.uk"
 license          "Apache 2.0"
