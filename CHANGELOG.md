@@ -4,7 +4,7 @@ This file is used to list changes made in each version of gem_binary.
 
 ## 0.1.0:
 
-* Initial release of gem_binary
+* Initial release of gem_binary.
 
 - - - 
 Check the [Markdown Syntax
